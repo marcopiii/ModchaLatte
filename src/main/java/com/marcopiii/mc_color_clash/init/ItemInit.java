@@ -15,4 +15,8 @@ public class ItemInit {
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC))
     );
 
+    public static final RegistryObject<Item> RABBIT_IRON_INGOT = ITEMS.register(
+            "rabbit_iron_ingot",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC))
+    );
 }
