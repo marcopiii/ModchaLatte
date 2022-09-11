@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "minecraft:rabbit"
+  },
+  "result": "mc_color_clash:rabbit_iron_nugget"
+}
