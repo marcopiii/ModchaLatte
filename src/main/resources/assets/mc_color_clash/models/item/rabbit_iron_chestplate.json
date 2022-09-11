@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mc_color_clash:items/rabbit_iron_chestplate"
+  }
+}
