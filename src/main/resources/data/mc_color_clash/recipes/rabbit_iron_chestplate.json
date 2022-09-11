@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "mc_color_clash:rabbit_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "mc_color_clash:rabbit_iron_chestplate"
+  }
+}
