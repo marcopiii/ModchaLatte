@@ -1,12 +1,9 @@
 package com.marcopiii.mc_color_clash.init;
 
 import com.marcopiii.mc_color_clash.ColorClashMod;
-import com.marcopiii.mc_color_clash.base.RabbitIronArmorMaterial;
+import com.marcopiii.mc_color_clash.base.RabbitIronArmorItem;
 import net.minecraft.world.entity.EquipmentSlot;
-import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.item.ArmorMaterial;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -23,28 +20,21 @@ public class ItemInit {
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC))
     );
 
-    private static final Item.Properties rabbitArmorProps = new Item.Properties()
-            .setNoRepair()
-            .tab(CreativeModeTab.TAB_COMBAT);
-
     public static final RegistryObject<ArmorItem> RABBIT_IRON_HELMET = ITEMS.register(
             "rabbit_iron_helmet",
-            () -> new ArmorItem(ArmorTiers.RABBIT_IRON_ARMOR_MATERIAL, EquipmentSlot.HEAD, rabbitArmorProps)
+            () -> new RabbitIronArmorItem(EquipmentSlot.HEAD)
     );
     public static final RegistryObject<ArmorItem> RABBIT_IRON_CHESTPLATE = ITEMS.register(
             "rabbit_iron_chestplate",
-            () -> new ArmorItem(ArmorTiers.RABBIT_IRON_ARMOR_MATERIAL, EquipmentSlot.CHEST, rabbitArmorProps)
+            () -> new RabbitIronArmorItem(EquipmentSlot.CHEST)
     );
     public static final RegistryObject<ArmorItem> RABBIT_IRON_LEGGINGS = ITEMS.register(
             "rabbit_iron_leggings",
-            () -> new ArmorItem(ArmorTiers.RABBIT_IRON_ARMOR_MATERIAL, EquipmentSlot.LEGS, rabbitArmorProps)
+            () -> new RabbitIronArmorItem(EquipmentSlot.LEGS)
     );
     public static final RegistryObject<ArmorItem> RABBIT_IRON_BOOTS = ITEMS.register(
             "rabbit_iron_boots",
-            () -> new ArmorItem(ArmorTiers.RABBIT_IRON_ARMOR_MATERIAL, EquipmentSlot.FEET, rabbitArmorProps)
+            () -> new RabbitIronArmorItem(EquipmentSlot.FEET)
     );
 
-    public static class ArmorTiers {
-        public static final ArmorMaterial RABBIT_IRON_ARMOR_MATERIAL = new RabbitIronArmorMaterial();
-    }
 }
