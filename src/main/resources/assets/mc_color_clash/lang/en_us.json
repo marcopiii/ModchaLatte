@@ -1,4 +1,9 @@
 {
+  "enchantment.mc_color_clash.white_blessing_enchantment": "White Blessing",
+  "enchantment.mc_color_clash.black_blessing_enchantment": "Black Blessing",
+  "enchantment.mc_color_clash.red_blessing_enchantment": "Red Blessing",
+  "enchantment.mc_color_clash.green_blessing_enchantment": "Green Blessing",
+  "enchantment.mc_color_clash.blue_blessing_enchantment": "Blue Blessing",
   "item.mc_color_clash.rabbit_iron_nugget": "Rabbit Iron Nugget",
   "item.mc_color_clash.rabbit_iron_ingot": "Rabbit Iron Ingot",
   "item.mc_color_clash.rabbit_iron_helmet": "Rabbit Iron Helmet",
