@@ -41,7 +41,7 @@ public record RabbitIronArmorMaterial() implements ArmorMaterial {
 
     @Override
     public @NotNull String getName() {
-        return ColorClashMod.MOD_ID + ":rabbit_iron_armor_material";
+        return ColorClashMod.MOD_ID + ":rabbit_iron";
     }
 
     @Override
